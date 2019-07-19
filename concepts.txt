@@ -1,0 +1,65 @@
+--> APP CHALLENGES
+-Be able to navigate around to separate pages in app: React-Router
+-Allow user login/logout: GoogleAuth
+-Handle forms in Redux
+-Master CRUD(Create Read Update Destroy)
+
+--> REACT Router
+-Route
+*multiple route components with the same path will append their contents and show on that particular path
+*Router components will appear on the screen as long as their path property value is included in the URL
+If we use "exact" however, it will only show the Router when URL===path property value
+
+--> ANCHOR Tags
+-never use
+-Instead use "Link" tag: ideal for SPA(Single Page Applications)
+
+--> ROUTER Types
+-BrowserRouter: uses everything after root domain. Discard this and use HashRouter if you begin to see 404 errors
+-HashRouter: adds "/#/" after root domain and uses everything afterwards
+-MemoryRouter: doesn't use URL to track navigation. On clicking Link tag, URL doesn't update. On visiting any link directly from the browser, the homePage loads
+
+-->Google OAuth
+-Scopes are the list of things we want to get access to
+
+--> REDUX FORMS
+-reduxForm() is similar to connect() in redux
+-Field tag is what is used to display form elements
+-<input {...formProps.input} />: JSX to add props to a tag from an already existing object. In this case, formProps.input
+
+--> RESTFUL CONVENTIONS
+-Standardized system of routes and methods used to commit/operate different actions
+
+--> Using connect with form
+
+-->Object.values: js default to turn objects to array
+
+-->Programmatic navigation
+-history.push(<some path>): to be used in action creator
+
+-->ROUTE PARAMS
+-Available to component via props argument
+
+-->ownProps
+-How to get component props from mapStateToProps
+
+-->INITIALVALUES && _.PICK
+{/* initialValues is a very special props name with reduxForm.
+  this.props.stream includes title & description properties because that's the name we gave the FIELD tags.
+  this lodash function helps us pick just these 2 from the object */}
+
+-->PUT && PATCH
+-Patch: update some properties
+-Put: Update all properties
+
+--> REACT PORTALS
+-To render stuff like modals, that have to be just directly after the body tag
+
+-->REACT FRAGMENTS: tag used to wrap elements when we want to return more than 1 element with JSX
+-<></> OR
+-<React.Fragment></React.Fragment>
+
+--> SWITCH TAG
+-Used to resolve the conflict of path="/streams/new" & path="streams/:id", so that we don't have both components showing at the same time
+
+--> REFs: Allows us use DOM elements in JSX

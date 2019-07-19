@@ -1,0 +1,26 @@
+{
+  "streams": [
+    {
+      "title": "BibleMan",
+      "description": "Action character from Ephesians 6",
+      "id": 1
+    },
+    {
+      "title": "SuperBook",
+      "description": "Children bible stories",
+      "id": 2
+    },
+    {
+      "title": "Ten Commandments",
+      "description": "Story of Moses & the children of Israel through the wilderness to the promise land",
+      "userId": "114672592826776039210",
+      "id": 4
+    },
+    {
+      "title": "Samurai Jack",
+      "description": "Samurai looking to return to the past",
+      "userId": "114672592826776039210",
+      "id": 7
+    }
+  ]
+}

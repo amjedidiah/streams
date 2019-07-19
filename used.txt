@@ -1,0 +1,19 @@
+React-router-dom: for react router
+
+GAPI: https://apis.google.com/js/platform.js?onload=init
+
+Redux-DevTools Extension
+-Browser extension to help debug redux inside browser
+
+Redux Debug Session: keeps all actions and state even after refresh
+-<root domain>?debug_session=<some_string>
+
+Redux Form
+-already has the ACTION CREATOR & REDUCER written out for us
+
+JSON SEREVER: https://npmjs.com/package/json-server
+-Used because it adheres strictly to RESTFUL CONVENTIONS
+-ExpressJS could be used Instead.
+
+mapKeys from LODASH:
+-To convert arrays to objects
